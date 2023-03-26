@@ -1,0 +1,169 @@
+#top{
+    margin: 0;
+    padding: 5px 0;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 10px 10px 50px -5px rgba(0,0,0,0.1);
+}                   /*pasek na górze strony*/
+
+#top ul {
+    display: flex;
+    margin: 10px 0 10px auto;
+    width: 45%; 
+    justify-content: space-evenly;
+    list-style: none;
+}           /*umieszczenie napisów na pasku*/
+
+#top ul li a {
+    margin-left: 6px;
+    color: black;
+    opacity: 0.9;
+    font-size: 1.5rem;
+    font-family: "Poppins" ,Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#top ul li a:hover {
+    color: rgb(117, 156, 214);
+    opacity: 0.8;
+    text-decoration: underline overline;
+    transition: all 0.35s; 
+}       /*kolorki jak się najedze na tekst*/
+
+#intro-section {
+    height: 250px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg");
+    background-size: cover;
+}
+
+#welcome-section {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.hello img {
+    max-width: 90%;
+    border-radius: 10px;
+}
+
+.hello img:hover{
+transform: scale(1.5);
+transition: all 1s;
+}
+
+.hello {
+    display: flex;
+    margin: 20px;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: "Poppins" ,Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+section {
+    margin-top: 1rem;
+    padding-top: 2rem;
+}
+
+.section-head {
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: dotted;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+}
+
+div.my-information {
+    display: block;
+    font-size: 1.5rem;
+    text-align: left;
+    font-family: "Poppins" ,Arial, Helvetica, sans-serif;
+}
+
+#skills-section {
+    background-color: rgb(83, 58, 224);
+    color: white;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+}
+
+div.my-information {
+    display: block;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+
+.skill-information {
+    padding: 3rem;
+    text-align: center;
+}
+
+.skill-name {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+.skill-information progress {
+    background-color: white;
+    border: 1px solid white;
+}
+
+.skill-information progress::-webkit-progress-value {
+    background-color: blue;
+    border-radius: 0;
+}
+
+.skill-information progress::-webkit-progress-bar {
+    background-color: grey;
+}
+
+#contact-section {
+    margin-top: 50px;
+    padding: 50px;
+    background-color: rgb(17, 94, 107);
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    border: 10px solid rgb(49, 24, 107);
+}
+
+#contact-section a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#contact-section a:hover {
+    color: rgb(4, 35, 80);
+    opacity: 1;
+    text-decoration: underline overline;
+    transition: all 0.15s; 
+}
+
+/*.columns{
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+}*/
